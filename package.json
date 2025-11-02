@@ -1,0 +1,33 @@
+{
+  "name": "dropbox-image-server",
+  "version": "1.0.0",
+  "description": "Ein Node.js-Server zum Hochladen von Bildern, Speichern auf Dropbox und Generieren von permanenten Bild-Links.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.3",
+    "dropbox": "^10.34.0",
+    "express": "^4.19.2",
+    "form-data": "^4.0.0",
+    "multer": "^1.4.5-lts.1",
+    "mime-types": "^2.1.35",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "keywords": [
+    "dropbox",
+    "image-upload",
+    "express",
+    "nodejs",
+    "api",
+    "file-server"
+  ],
+  "author": "Philip",
+  "license": "MIT"
+}
